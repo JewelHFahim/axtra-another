@@ -23,31 +23,18 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <nav>
-        <ul className="border border-red-600">
-
-          <li>
-            <div className="link border border-red-600">
-              <span className="text-[20px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione odio voluptas fugiat iure quo, nulla rem quod perferendis repellendus tenetur?</span>
-              <div className="hover-reveal image01">
-                <img src={img} className="hidden-img" alt="" />
-              </div>
+    <nav>
+      <div className="vsb1 border border-green-600 p-2">
+        <li>
+          <div className="link border border-red-600">
+            <span className="text-[40px] m-10">Welcome</span>
+            <div className="hover-reveal">
+              <img src={img} className="hidden-img" alt="" />
             </div>
-          </li>
-          
-          <li>
-            <div className="link border border-red-600">
-              <span className="text-[20px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione odio voluptas fugiat iure quo, nulla rem quod perferendis repellendus tenetur?</span>
-              <div className="hover-reveal image01">
-                <img src={img} className="hidden-img" alt="" />
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </nav>
-    </div>
+          </div>
+        </li>
+      </div>
+    </nav>
   );
 };
 

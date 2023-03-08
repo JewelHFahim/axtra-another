@@ -1,25 +1,21 @@
-li {
-  list-style: none;
-}
-
 nav {
-  min-height: 100vh;
+  min-height: 500px;
   overflow: hidden;
   display: grid;
   place-items: center;
 }
 
-nav ul {
-  width: 80%;
-}
-
-nav ul li {
-  border-bottom: solid #ffffff 0.05rem;
+li {
+  list-style: none;
   position: relative;
   z-index: 10;
 }
 
-nav ul li .link {
+.vsb1 {
+  width: 80%;
+}
+
+.link {
   display: flex;
   padding: 4rem 0 2rem 0;
   z-index: 10;
