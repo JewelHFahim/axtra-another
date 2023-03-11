@@ -4,22 +4,27 @@ import img from "../Asstets/2.jpg"
 
 const HorizontalSlider = () => {
   return (
-    <div className="border border-green-600 w-[1000px] h-[1000px] ">
+    <div className="border-[20px] border-green-600 h-screen w-screen">
+
+
       <div class="horizontal-scroll-wrapper squares text-white">
-
- 
-        <div className="w-[00px] h-[600px]">
-          <p className="">WHY <br /> CHOOSE US</p>
+        <div className="project">
+          <p className="text-[120px]">JEWEL1</p>
+          <p className="text-[120px]">JEWEL2</p>
+          <p className="text-[120px]">JEWEL3</p>
         </div>
-
-        <div className="w-[800px] h-[800px]">
-          <img src={img} alt="" />
+{/* 
+        <div className="project">
+          <p><p className="text-[120px]">HOSSAIN</p></p>
+          <p><p className="text-[120px]">HOSSAIN</p></p>
+          <p><p className="text-[120px]">HOSSAIN</p></p>
         </div>
-
-        <div className="w-[600px] h-[600px]">
-          <p className="">Have you project in mind?</p>
-          <p className="">Let’s make something great together!</p>
-        </div>
+{/*
+        <div className="project">
+          <p className="text-[120px]">FAHIM</p>
+          <p className="text-[120px]">FAHIM</p>
+          <p className="text-[120px]">FAHIM</p>
+        </div> */}
         
         
       </div>
